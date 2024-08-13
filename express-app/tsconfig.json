@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "lib": ["es2022"],
+    "module": "es2022",
+    "target": "es2022",
+
+    "moduleResolution": "Bundler",
+    "moduleDetection": "force",
+
+    "allowJs": true,
+    "incremental": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "allowSyntheticDefaultImports": true,
+
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+
+    "outDir": "dist",
+    "rootDir": "src",
+    "baseUrl": "src",
+
+    "paths": {
+      "@root/*": ["./*"],
+      "@routes/*": ["./routes/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.js", "**/*.mjs"],
+  "exclude": ["node_modules"]
+}
